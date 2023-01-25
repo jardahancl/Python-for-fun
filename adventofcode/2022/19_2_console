@@ -1,0 +1,139 @@
+Blueprint 1:
+    max = 31, no restrictions:
+        [[4, 0, 0, 0], [4, 0, 0, 0], [4, 20, 0, 0], [2, 0, 12, 0], [0, 0, 0, 0]]
+            Replacing max with State(resources=Resources(ore=35, clay=29, obsidian=6, geode=1), robots=Robots(ore=10, clay=7, obsidian=3, geode=1), minute=27)
+            Replacing max with State(resources=Resources(ore=41, clay=36, obsidian=9, geode=2), robots=Robots(ore=11, clay=7, obsidian=3, geode=1), minute=28)
+            Replacing max with State(resources=Resources(ore=48, clay=43, obsidian=12, geode=3), robots=Robots(ore=12, clay=7, obsidian=3, geode=1), minute=29)
+            Replacing max with State(resources=Resources(ore=56, clay=50, obsidian=15, geode=4), robots=Robots(ore=13, clay=7, obsidian=3, geode=1), minute=30)
+            Replacing max with State(resources=Resources(ore=28, clay=54, obsidian=8, geode=5), robots=Robots(ore=9, clay=9, obsidian=4, geode=2), minute=30)
+            Replacing max with State(resources=Resources(ore=66, clay=57, obsidian=6, geode=6), robots=Robots(ore=13, clay=7, obsidian=3, geode=2), minute=31)
+            Replacing max with State(resources=Resources(ore=33, clay=63, obsidian=12, geode=7), robots=Robots(ore=10, clay=9, obsidian=4, geode=2), minute=31)
+            Replacing max with State(resources=Resources(ore=75, clay=64, obsidian=9, geode=8), robots=Robots(ore=14, clay=7, obsidian=3, geode=2), minute=32)
+            Replacing max with State(resources=Resources(ore=39, clay=72, obsidian=16, geode=9), robots=Robots(ore=11, clay=9, obsidian=4, geode=2), minute=32)
+            Replacing max with State(resources=Resources(ore=25, clay=61, obsidian=10, geode=10), robots=Robots(ore=8, clay=10, obsidian=5, geode=3), minute=32)
+        {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 11, 10: 17, 11: 25, 12: 42, 13: 68, 14: 109, 15: 176, 16: 275, 17: 426, 18: 687, 19: 1163,
+        20: 2_003, 21: 3_433, 22: 6_009, 23: 10_569, 24: 18_561, 25: 32_652, 26: 57_705, 27: 104_193, 28: 192_965, 29: 357_039, 30: 660_535, 31: 1_233_512}
+        Maximum geode for Blueprint 1 is 10
+        Time consumed 8186.096006631851 = 2h 20m
+        Resulting sum is 10
+        Process finished with exit code
+
+
+Blueprint 2:
+    max = 25,  [[3, 0, 0, 0], [3, 0, 0, 0], [2, 15, 0, 0], [3, 0, 9, 0], [0, 0, 0, 0]]
+       no restrictions
+       max change:
+            Replacing max with State(resources=Resources(ore=24, clay=28, obsidian=6, geode=1), robots=Robots(ore=7, clay=7, obsidian=3, geode=1), minute=22) in time 34
+            Replacing max with State(resources=Resources(ore=28, clay=35, obsidian=9, geode=2), robots=Robots(ore=8, clay=7, obsidian=3, geode=1), minute=23) in time 95
+            Replacing max with State(resources=Resources(ore=33, clay=42, obsidian=12, geode=3), robots=Robots(ore=9, clay=7, obsidian=3, geode=1), minute=24) in time 246
+            Replacing max with State(resources=Resources(ore=14, clay=41, obsidian=8, geode=4), robots=Robots(ore=6, clay=8, obsidian=4, geode=2), minute=24) in time 317
+            Replacing max with State(resources=Resources(ore=38, clay=49, obsidian=6, geode=5), robots=Robots(ore=9, clay=7, obsidian=3, geode=2), minute=25) in time 805
+            Replacing max with State(resources=Resources(ore=17, clay=49, obsidian=12, geode=6), robots=Robots(ore=7, clay=8, obsidian=4, geode=2), minute=25) in time 1102
+            Replacing max with State(resources=Resources(ore=44, clay=56, obsidian=9, geode=7), robots=Robots(ore=10, clay=7, obsidian=3, geode=2), minute=26) in time 1371
+            Replacing max with State(resources=Resources(ore=17, clay=42, obsidian=11, geode=9), robots=Robots(ore=6, clay=8, obsidian=5, geode=3), minute=26) in time 1408
+        {0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 31, 10: 52, 11: 89, 12: 154, 13: 250, 14: 415, 15: 756, 16: 1380, 17: 2504, 18: 4560, 19: 8380,
+            20: 15_377, 21: 28_391, 22: 54_406, 23: 106_368, 24: 210_466, 25: 422_407}
+        Maximum geode for Blueprint 2 is 9
+        Time consumed 1410 = 24m
+        Resulting sum is 18
+    max = 31, [[3, 0, 0, 0], [3, 0, 0, 0], [2, 15, 0, 0], [3, 0, 9, 0], [0, 0, 0, 0]]
+        restrictions
+            if self.minute > 24 and self.robots.geode < 1:                return False
+            if self.minute > 25 and self.robots.geode < 2:                return False
+            if self.minute > 26 and self.robots.geode < 3:                return False
+            if self.minute > 27 and self.robots.geode < 4:                return False
+            if self.minute > 28 and self.robots.geode < 5:                return False
+            if self.minute > 29 and self.robots.geode < 6:                return False
+            if self.minute > 30 and self.robots.geode < 7:                return False
+            if self.minute > 31 and self.robots.geode < 8:                return False
+        max change:
+            Replacing max with State(resources=Resources(ore=24, clay=28, obsidian=6, geode=1), robots=Robots(ore=7, clay=7, obsidian=3, geode=1), minute=22) in time 33.95868754386902
+            Replacing max with State(resources=Resources(ore=28, clay=35, obsidian=9, geode=2), robots=Robots(ore=8, clay=7, obsidian=3, geode=1), minute=23) in time 105.54150938987732
+            Replacing max with State(resources=Resources(ore=33, clay=42, obsidian=12, geode=3), robots=Robots(ore=9, clay=7, obsidian=3, geode=1), minute=24) in time 266.38990330696106
+            Replacing max with State(resources=Resources(ore=14, clay=41, obsidian=8, geode=4), robots=Robots(ore=6, clay=8, obsidian=4, geode=2), minute=24) in time 354.0086872577667
+            Replacing max with State(resources=Resources(ore=38, clay=49, obsidian=6, geode=5), robots=Robots(ore=9, clay=7, obsidian=3, geode=2), minute=25) in time 503.7616994380951
+            Replacing max with State(resources=Resources(ore=17, clay=49, obsidian=12, geode=6), robots=Robots(ore=7, clay=8, obsidian=4, geode=2), minute=25) in time 647.7991397380829
+            Replacing max with State(resources=Resources(ore=44, clay=56, obsidian=9, geode=7), robots=Robots(ore=10, clay=7, obsidian=3, geode=2), minute=26) in time 709.8114991188049
+            Replacing max with State(resources=Resources(ore=13, clay=48, obsidian=10, geode=8), robots=Robots(ore=5, clay=9, obsidian=5, geode=3), minute=26) in time 766.5678813457489
+            Replacing max with State(resources=Resources(ore=17, clay=42, obsidian=11, geode=9), robots=Robots(ore=6, clay=8, obsidian=5, geode=3), minute=26) in time 817.7381920814514
+            Replacing max with State(resources=Resources(ore=46, clay=48, obsidian=8, geode=10), robots=Robots(ore=9, clay=7, obsidian=4, geode=3), minute=27) in time 841.1600062847137
+            Replacing max with State(resources=Resources(ore=15, clay=57, obsidian=15, geode=11), robots=Robots(ore=6, clay=9, obsidian=5, geode=3), minute=27) in time 868.8790810108185
+            Replacing max with State(resources=Resources(ore=20, clay=50, obsidian=16, geode=12), robots=Robots(ore=7, clay=8, obsidian=5, geode=3), minute=27) in time 890.6097106933594
+            Replacing max with State(resources=Resources(ore=52, clay=55, obsidian=12, geode=13), robots=Robots(ore=10, clay=7, obsidian=4, geode=3), minute=28) in time 901.6617691516876
+            Replacing max with State(resources=Resources(ore=36, clay=33, obsidian=12, geode=14), robots=Robots(ore=6, clay=8, obsidian=6, geode=4), minute=28) in time 905.3641245365143
+            Replacing max with State(resources=Resources(ore=17, clay=66, obsidian=11, geode=15), robots=Robots(ore=6, clay=9, obsidian=5, geode=4), minute=28) in time 912.874085187912
+            Replacing max with State(resources=Resources(ore=23, clay=58, obsidian=12, geode=16), robots=Robots(ore=7, clay=8, obsidian=5, geode=4), minute=28) in time 922.0220046043396
+            Replacing max with State(resources=Resources(ore=55, clay=47, obsidian=11, geode=17), robots=Robots(ore=9, clay=7, obsidian=5, geode=4), minute=29) in time 926.3208508491516
+            Replacing max with State(resources=Resources(ore=39, clay=41, obsidian=18, geode=18), robots=Robots(ore=7, clay=8, obsidian=6, geode=4), minute=29) in time 926.8254890441895
+            Replacing max with State(resources=Resources(ore=20, clay=75, obsidian=16, geode=19), robots=Robots(ore=7, clay=9, obsidian=5, geode=4), minute=29) in time 929.0723533630371
+            Replacing max with State(resources=Resources(ore=24, clay=51, obsidian=12, geode=20), robots=Robots(ore=6, clay=8, obsidian=6, geode=5), minute=29) in time 932.2537631988525
+            Replacing max with State(resources=Resources(ore=22, clay=51, obsidian=13, geode=21), robots=Robots(ore=6, clay=8, obsidian=6, geode=5), minute=29) in time 932.3520963191986
+            Replacing max with State(resources=Resources(ore=46, clay=49, obsidian=12, geode=22), robots=Robots(ore=7, clay=8, obsidian=6, geode=5), minute=30) in time 934.0790076255798
+            Replacing max with State(resources=Resources(ore=42, clay=49, obsidian=15, geode=23), robots=Robots(ore=7, clay=8, obsidian=6, geode=5), minute=30) in time 934.1720490455627
+            Replacing max with State(resources=Resources(ore=23, clay=84, obsidian=12, geode=24), robots=Robots(ore=7, clay=9, obsidian=5, geode=5), minute=30) in time 934.8565843105316
+            Replacing max with State(resources=Resources(ore=27, clay=59, obsidian=18, geode=25), robots=Robots(ore=7, clay=8, obsidian=6, geode=5), minute=30) in time 935.9323287010193
+            Replacing max with State(resources=Resources(ore=25, clay=59, obsidian=19, geode=26), robots=Robots(ore=7, clay=8, obsidian=6, geode=5), minute=30) in time 935.985449552536
+            Replacing max with State(resources=Resources(ore=21, clay=44, obsidian=14, geode=27), robots=Robots(ore=5, clay=8, obsidian=7, geode=6), minute=30) in time 936.0065007209778
+            Replacing max with State(resources=Resources(ore=44, clay=42, obsidian=15, geode=28), robots=Robots(ore=6, clay=8, obsidian=7, geode=6), minute=31) in time 936.6739091873169
+            Replacing max with State(resources=Resources(ore=45, clay=57, obsidian=12, geode=29), robots=Robots(ore=7, clay=8, obsidian=6, geode=6), minute=31) in time 936.6919031143188
+            Replacing max with State(resources=Resources(ore=22, clay=78, obsidian=13, geode=30), robots=Robots(ore=6, clay=9, obsidian=6, geode=6), minute=31) in time 936.8738696575165
+            Replacing max with State(resources=Resources(ore=30, clay=67, obsidian=15, geode=31), robots=Robots(ore=7, clay=8, obsidian=6, geode=6), minute=31) in time 937.1840727329254
+            Replacing max with State(resources=Resources(ore=28, clay=67, obsidian=16, geode=32), robots=Robots(ore=7, clay=8, obsidian=6, geode=6), minute=31) in time 937.2010629177094
+            Replacing max with State(resources=Resources(ore=23, clay=52, obsidian=21, geode=33), robots=Robots(ore=6, clay=8, obsidian=7, geode=6), minute=31) in time 937.2090582847595
+            Replacing max with State(resources=Resources(ore=44, clay=52, obsidian=14, geode=34), robots=Robots(ore=6, clay=8, obsidian=7, geode=7), minute=32) in time 937.4381947517395
+            Replacing max with State(resources=Resources(ore=45, clay=50, obsidian=14, geode=35), robots=Robots(ore=6, clay=8, obsidian=7, geode=7), minute=32) in time 937.4401013851166
+            Replacing max with State(resources=Resources(ore=22, clay=72, obsidian=14, geode=36), robots=Robots(ore=5, clay=9, obsidian=7, geode=7), minute=32) in time 937.4877941608429
+            Replacing max with State(resources=Resources(ore=21, clay=72, obsidian=14, geode=37), robots=Robots(ore=5, clay=9, obsidian=7, geode=7), minute=32) in time 937.4917709827423
+            Replacing max with State(resources=Resources(ore=33, clay=75, obsidian=12, geode=38), robots=Robots(ore=7, clay=8, obsidian=6, geode=7), minute=32) in time 937.588433265686
+            Replacing max with State(resources=Resources(ore=31, clay=75, obsidian=13, geode=39), robots=Robots(ore=7, clay=8, obsidian=6, geode=7), minute=32) in time 937.5944542884827
+            Replacing max with State(resources=Resources(ore=25, clay=60, obsidian=19, geode=40), robots=Robots(ore=6, clay=8, obsidian=7, geode=7), minute=32) in time 937.5984811782837
+           {0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 31, 10: 52, 11: 89, 12: 154, 13: 250, 14: 415, 15: 756, 16: 1380, 17: 2504, 18: 4560, 19: 8380, 20: 15377, 21: 28391, 22: 54406, 23: 106368, 24: 210466, 25: 150699, 26: 90516, 27: 46120, 28: 19564, 29: 8153, 30: 3218, 31: 1307}
+        Maximum geode for Blueprint 2 is 40
+        Time consumed 937.6732003688812
+        Resulting sum is 80
+
+
+
+Blueprint 3:
+    max = 31, no restrictions
+        [[2, 0, 0, 0], [4, 0, 0, 0], [4, 20, 0, 0], [4, 0, 18, 0], [0, 0, 0, 0]]
+        Replacing max with State(resources=Resources(ore=42, clay=36, obsidian=8, geode=1), robots=Robots(ore=9, clay=9, obsidian=4, geode=1), minute=25)
+        Replacing max with State(resources=Resources(ore=49, clay=45, obsidian=12, geode=2), robots=Robots(ore=10, clay=9, obsidian=4, geode=1), minute=26)
+        Replacing max with State(resources=Resources(ore=57, clay=54, obsidian=16, geode=3), robots=Robots(ore=11, clay=9, obsidian=4, geode=1), minute=27)
+        Replacing max with State(resources=Resources(ore=66, clay=63, obsidian=20, geode=4), robots=Robots(ore=12, clay=9, obsidian=4, geode=1), minute=28)
+        Replacing max with State(resources=Resources(ore=30, clay=40, obsidian=12, geode=5), robots=Robots(ore=8, clay=10, obsidian=6, geode=2), minute=28)
+        Replacing max with State(resources=Resources(ore=67, clay=52, obsidian=10, geode=6), robots=Robots(ore=11, clay=9, obsidian=5, geode=2), minute=29)
+        Replacing max with State(resources=Resources(ore=36, clay=50, obsidian=18, geode=7), robots=Robots(ore=9, clay=10, obsidian=6, geode=2), minute=29)
+        cca 11h bez vysledku, ale mozna to po chvili spadlo
+    max = 32
+        [[2, 0, 0, 0], [4, 0, 0, 0], [4, 20, 0, 0], [4, 0, 18, 0], [0, 0, 0, 0]]
+        restrictions
+            if self.minute > 27 and self.robots.geode < 1:    return False
+            if self.minute > 30 and self.robots.geode < 2:    return False
+            if self.minute > 31 and self.robots.geode < 3:    return False
+        max change
+            Replacing max with State(resources=Resources(ore=42, clay=36, obsidian=8, geode=1), robots=Robots(ore=9, clay=9, obsidian=4, geode=1), minute=25) in time 491
+            Replacing max with State(resources=Resources(ore=49, clay=45, obsidian=12, geode=2), robots=Robots(ore=10, clay=9, obsidian=4, geode=1), minute=26) in time 1228
+            Replacing max with State(resources=Resources(ore=57, clay=54, obsidian=16, geode=3), robots=Robots(ore=11, clay=9, obsidian=4, geode=1), minute=27) in time 3155
+            Replacing max with State(resources=Resources(ore=66, clay=63, obsidian=20, geode=4), robots=Robots(ore=12, clay=9, obsidian=4, geode=1), minute=28) in time 5053
+            Replacing max with State(resources=Resources(ore=30, clay=40, obsidian=12, geode=5), robots=Robots(ore=8, clay=10, obsidian=6, geode=2), minute=28) in time 5541
+            Replacing max with State(resources=Resources(ore=67, clay=52, obsidian=10, geode=6), robots=Robots(ore=11, clay=9, obsidian=5, geode=2), minute=29) in time 7025
+            Replacing max with State(resources=Resources(ore=36, clay=50, obsidian=18, geode=7), robots=Robots(ore=9, clay=10, obsidian=6, geode=2), minute=29) in time 7938
+            Replacing max with State(resources=Resources(ore=76, clay=61, obsidian=15, geode=8), robots=Robots(ore=12, clay=9, obsidian=5, geode=2), minute=30) in time 11991
+            Replacing max with State(resources=Resources(ore=43, clay=60, obsidian=24, geode=9), robots=Robots(ore=10, clay=10, obsidian=6, geode=2), minute=30) in time 14733
+            Replacing max with State(resources=Resources(ore=86, clay=70, obsidian=20, geode=10), robots=Robots(ore=13, clay=9, obsidian=5, geode=2), minute=31) in time 18956
+            Replacing max with State(resources=Resources(ore=44, clay=51, obsidian=14, geode=11), robots=Robots(ore=9, clay=10, obsidian=7, geode=3), minute=31) in time 21278
+            Replacing max with State(resources=Resources(ore=48, clay=70, obsidian=12, geode=12), robots=Robots(ore=10, clay=10, obsidian=6, geode=3), minute=31) in time 21940
+            Replacing max with State(resources=Resources(ore=87, clay=59, obsidian=12, geode=13), robots=Robots(ore=12, clay=9, obsidian=6, geode=3), minute=32) in time 23311
+            Replacing max with State(resources=Resources(ore=51, clay=61, obsidian=21, geode=14), robots=Robots(ore=10, clay=10, obsidian=7, geode=3), minute=32) in time 23969
+            Replacing max with State(resources=Resources(ore=56, clay=80, obsidian=18, geode=15), robots=Robots(ore=11, clay=10, obsidian=6, geode=3), minute=32) in time 24245
+            #   Replacing max with State(resources=Resources(ore=97, clay=68, obsidian=18, geode=16), robots=Robots(ore=13, clay=9, obsidian=6, geode=3), minute=33) in time 24531
+            #   Replacing max with State(resources=Resources(ore=59, clay=71, obsidian=28, geode=17), robots=Robots(ore=11, clay=10, obsidian=7, geode=3), minute=33) in time 24560
+            #   Replacing max with State(resources=Resources(ore=18, clay=77, obsidian=16, geode=18), robots=Robots(ore=7, clay=12, obsidian=8, geode=4), minute=33) in time 24565
+            #   Replacing max with State(resources=Resources(ore=17, clay=76, obsidian=17, geode=19), robots=Robots(ore=7, clay=12, obsidian=8, geode=4), minute=33) in time 24568
+        {0: 1, 1: 1, 2: 1, 3: 2, 4: 3, 5: 5, 6: 9, 7: 16, 8: 27, 9: 47, 10: 77, 11: 124, 12: 196, 13: 306, 14: 486, 15: 834, 16: 1500, 17: 2662, 18: 4757, 19: 8692,
+        20: 15_759, 21: 28_401, 22: 50_849, 23: 90_324, 24: 157_837, 25: 279_281, 26: 497_869, 27: 890_109, 28: 342_228, 29: 659_493, 30: 128_3947, 31: 841_480, 32: 282_334}
+        Maximum geode for Blueprint 3 is 19 (resp 15)
+        Time consumed 24571 = 6h 50m
+        Resulting sum is 57(resp 45)
+

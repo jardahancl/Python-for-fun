@@ -1,0 +1,186 @@
+[[4, 0, 0, 0], [4, 0, 0, 0], [4, 20, 0, 0], [2, 0, 12, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 1 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 11, 10: 17, 11: 25, 12: 42, 13: 68, 14: 109, 15: 176, 16: 275, 17: 426, 18: 687, 19: 1163, 20: 2003, 21: 3433, 22: 6009, 23: 10569}
+
+[[3, 0, 0, 0], [3, 0, 0, 0], [2, 15, 0, 0], [3, 0, 9, 0], [0, 0, 0, 0]]
+Replacing max with State(resources=Resources(ore=24, clay=28, obsidian=6, geode=1), robots=Robots(ore=7, clay=7, obsidian=3, geode=1), minute=22)
+Replacing max with State(resources=Resources(ore=28, clay=35, obsidian=9, geode=2), robots=Robots(ore=8, clay=7, obsidian=3, geode=1), minute=23)
+Replacing max with State(resources=Resources(ore=33, clay=42, obsidian=12, geode=3), robots=Robots(ore=9, clay=7, obsidian=3, geode=1), minute=24)
+Replacing max with State(resources=Resources(ore=14, clay=41, obsidian=8, geode=4), robots=Robots(ore=6, clay=8, obsidian=4, geode=2), minute=24)
+Maximum geode for Blueprint 2 is 4
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 23, 10: 40, 11: 71, 12: 125, 13: 203, 14: 337, 15: 142, 16: 259, 17: 499, 18: 1023, 19: 1954, 20: 3664, 21: 406, 22: 1154, 23: 2429}
+
+[[2, 0, 0, 0], [4, 0, 0, 0], [4, 20, 0, 0], [4, 0, 18, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 3 is 0
+{0: 1, 1: 1, 2: 1, 3: 2, 4: 3, 5: 5, 6: 9, 7: 16, 8: 27, 9: 47, 10: 77, 11: 124, 12: 196, 13: 306, 14: 486, 15: 834, 16: 1500, 17: 2662, 18: 4757, 19: 8692, 20: 15759, 21: 28401, 22: 50849, 23: 90324}
+
+[[3, 0, 0, 0], [3, 0, 0, 0], [2, 20, 0, 0], [2, 0, 20, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 4 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 23, 10: 40, 11: 71, 12: 125, 13: 202, 14: 311, 15: 32, 16: 75, 17: 118, 18: 216, 19: 442, 20: 921}
+
+[[3, 0, 0, 0], [4, 0, 0, 0], [4, 20, 0, 0], [4, 0, 16, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 5 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 2, 5: 4, 6: 6, 7: 8, 8: 13, 9: 14, 10: 26, 11: 43, 12: 74, 13: 115, 14: 180}
+
+[[3, 0, 0, 0], [3, 0, 0, 0], [3, 11, 0, 0], [2, 0, 8, 0], [0, 0, 0, 0]]
+Replacing max with State(resources=Resources(ore=10, clay=26, obsidian=6, geode=1), robots=Robots(ore=6, clay=6, obsidian=3, geode=1), minute=20)
+Replacing max with State(resources=Resources(ore=13, clay=32, obsidian=9, geode=2), robots=Robots(ore=7, clay=6, obsidian=3, geode=1), minute=21)
+Replacing max with State(resources=Resources(ore=17, clay=38, obsidian=12, geode=3), robots=Robots(ore=8, clay=6, obsidian=3, geode=1), minute=22)
+Replacing max with State(resources=Resources(ore=20, clay=35, obsidian=8, geode=4), robots=Robots(ore=6, clay=7, obsidian=4, geode=2), minute=23)
+Replacing max with State(resources=Resources(ore=22, clay=44, obsidian=7, geode=5), robots=Robots(ore=8, clay=6, obsidian=3, geode=2), minute=23)
+Replacing max with State(resources=Resources(ore=23, clay=42, obsidian=12, geode=6), robots=Robots(ore=7, clay=7, obsidian=4, geode=2), minute=24)
+Replacing max with State(resources=Resources(ore=20, clay=28, obsidian=10, geode=7), robots=Robots(ore=6, clay=6, obsidian=5, geode=3), minute=24)
+Replacing max with State(resources=Resources(ore=22, clay=38, obsidian=8, geode=8), robots=Robots(ore=7, clay=6, obsidian=4, geode=3), minute=24)
+Maximum geode for Blueprint 6 is 8
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 23, 10: 40, 11: 71, 12: 127, 13: 222, 14: 413, 15: 322, 16: 651, 17: 1343, 18: 2746, 19: 5376, 20: 11271, 21: 6630, 22: 15744, 23: 37804}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [4, 8, 0, 0], [2, 0, 18, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 7 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 29, 14: 56, 15: 28, 16: 50, 17: 83, 18: 174, 19: 341, 20: 701}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [4, 20, 0, 0], [2, 0, 8, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 8 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 28, 14: 47}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [4, 9, 0, 0], [4, 0, 16, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 9 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 29, 14: 51, 15: 15, 16: 30, 17: 47, 18: 91, 19: 171, 20: 338}
+
+[[2, 0, 0, 0], [3, 0, 0, 0], [3, 13, 0, 0], [2, 0, 20, 0], [0, 0, 0, 0]]
+Replacing max with State(resources=Resources(ore=14, clay=33, obsidian=10, geode=1), robots=Robots(ore=6, clay=8, obsidian=5, geode=1), minute=22)
+Replacing max with State(resources=Resources(ore=18, clay=41, obsidian=15, geode=2), robots=Robots(ore=7, clay=8, obsidian=5, geode=1), minute=23)
+Replacing max with State(resources=Resources(ore=23, clay=49, obsidian=20, geode=3), robots=Robots(ore=8, clay=8, obsidian=5, geode=1), minute=24)
+Maximum geode for Blueprint 10 is 3
+{0: 1, 1: 1, 2: 1, 3: 2, 4: 4, 5: 7, 6: 13, 7: 22, 8: 43, 9: 61, 10: 103, 11: 173, 12: 295, 13: 548, 14: 1039, 15: 920, 16: 1926, 17: 4009, 18: 7999, 19: 15078, 20: 28214, 21: 75, 22: 240, 23: 607}
+
+[[4, 0, 0, 0], [3, 0, 0, 0], [4, 16, 0, 0], [2, 0, 15, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 11 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 2, 5: 4, 6: 5, 7: 7, 8: 11, 9: 11, 10: 17, 11: 28, 12: 48, 13: 79, 14: 138, 15: 14, 16: 27, 17: 50, 18: 85, 19: 166, 20: 363}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [3, 14, 0, 0], [3, 0, 8, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 12 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 28, 14: 47, 15: 2, 16: 4, 17: 7, 18: 9, 19: 13, 20: 22}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [3, 7, 0, 0], [4, 0, 20, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 13 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 19, 13: 34, 14: 62, 15: 45, 16: 80, 17: 174, 18: 349, 19: 699, 20: 1378}
+
+[[2, 0, 0, 0], [4, 0, 0, 0], [4, 17, 0, 0], [3, 0, 11, 0], [0, 0, 0, 0]]
+Replacing max with State(resources=Resources(ore=23, clay=41, obsidian=6, geode=1), robots=Robots(ore=8, clay=8, obsidian=3, geode=1), minute=22)
+Replacing max with State(resources=Resources(ore=29, clay=49, obsidian=9, geode=2), robots=Robots(ore=9, clay=8, obsidian=3, geode=1), minute=23)
+Replacing max with State(resources=Resources(ore=36, clay=57, obsidian=12, geode=3), robots=Robots(ore=10, clay=8, obsidian=3, geode=1), minute=24)
+Maximum geode for Blueprint 14 is 3
+{0: 1, 1: 1, 2: 1, 3: 2, 4: 3, 5: 5, 6: 9, 7: 16, 8: 27, 9: 35, 10: 61, 11: 102, 12: 163, 13: 257, 14: 419, 15: 168, 16: 307, 17: 614, 18: 1278, 19: 2566, 20: 4904, 21: 65, 22: 213, 23: 503}
+
+[[4, 0, 0, 0], [3, 0, 0, 0], [4, 15, 0, 0], [4, 0, 9, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 15 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 2, 5: 4, 6: 5, 7: 7, 8: 11, 9: 11, 10: 17, 11: 28, 12: 48, 13: 79, 14: 140, 15: 22, 16: 37, 17: 71, 18: 133, 19: 297, 20: 644}
+
+[[2, 0, 0, 0], [4, 0, 0, 0], [3, 20, 0, 0], [2, 0, 16, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 16 is 0
+{0: 1, 1: 1, 2: 1, 3: 2, 4: 3, 5: 5, 6: 9, 7: 16, 8: 27, 9: 35, 10: 61, 11: 102, 12: 163, 13: 257, 14: 401, 15: 87, 16: 179, 17: 338, 18: 728, 19: 1520, 20: 2933}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [3, 10, 0, 0], [2, 0, 14, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 17 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 29, 14: 49, 15: 12, 16: 24, 17: 45, 18: 79, 19: 160, 20: 333}
+
+[[4, 0, 0, 0], [3, 0, 0, 0], [4, 15, 0, 0], [3, 0, 12, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 18 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 2, 5: 4, 6: 5, 7: 7, 8: 11, 9: 11, 10: 17, 11: 28, 12: 48, 13: 79, 14: 140, 15: 22, 16: 37, 17: 71, 18: 133, 19: 297, 20: 644}
+
+[[3, 0, 0, 0], [3, 0, 0, 0], [2, 20, 0, 0], [3, 0, 18, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 19 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 23, 10: 40, 11: 71, 12: 125, 13: 202, 14: 311, 15: 32, 16: 75, 17: 118, 18: 216, 19: 442, 20: 921}
+
+[[3, 0, 0, 0], [4, 0, 0, 0], [4, 18, 0, 0], [3, 0, 13, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 20 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 2, 5: 4, 6: 6, 7: 8, 8: 13, 9: 14, 10: 26, 11: 43, 12: 74, 13: 115, 14: 180}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [2, 7, 0, 0], [4, 0, 18, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 21 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 19, 13: 34, 14: 64, 15: 51, 16: 92, 17: 191, 18: 397, 19: 789, 20: 1516}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [4, 8, 0, 0], [3, 0, 19, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 22 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 29, 14: 56, 15: 28, 16: 50, 17: 83, 18: 174, 19: 341, 20: 701}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [3, 7, 0, 0], [4, 0, 11, 0], [0, 0, 0, 0]]
+Replacing max with State(resources=Resources(ore=3, clay=14, obsidian=4, geode=1), robots=Robots(ore=1, clay=2, obsidian=2, geode=1), minute=21)
+Replacing max with State(resources=Resources(ore=1, clay=9, obsidian=6, geode=2), robots=Robots(ore=1, clay=2, obsidian=3, geode=1), minute=22)
+Replacing max with State(resources=Resources(ore=2, clay=11, obsidian=9, geode=3), robots=Robots(ore=1, clay=2, obsidian=3, geode=1), minute=23)
+Replacing max with State(resources=Resources(ore=3, clay=13, obsidian=12, geode=4), robots=Robots(ore=1, clay=2, obsidian=3, geode=1), minute=24)
+Maximum geode for Blueprint 23 is 4
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 19, 13: 34, 14: 62, 15: 45, 16: 80, 17: 174, 18: 349, 19: 699, 20: 1379, 21: 15, 22: 48, 23: 116}
+
+[[3, 0, 0, 0], [3, 0, 0, 0], [3, 19, 0, 0], [2, 0, 9, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 24 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 23, 10: 40, 11: 71, 12: 125, 13: 202, 14: 312, 15: 45, 16: 91, 17: 152, 18: 296, 19: 598, 20: 1218}
+
+[[3, 0, 0, 0], [3, 0, 0, 0], [3, 6, 0, 0], [2, 0, 16, 0], [0, 0, 0, 0]]
+Replacing max with State(resources=Resources(ore=6, clay=21, obsidian=10, geode=1), robots=Robots(ore=5, clay=5, obsidian=5, geode=1), minute=20)
+Replacing max with State(resources=Resources(ore=8, clay=26, obsidian=15, geode=2), robots=Robots(ore=6, clay=5, obsidian=5, geode=1), minute=21)
+Replacing max with State(resources=Resources(ore=11, clay=31, obsidian=20, geode=3), robots=Robots(ore=7, clay=5, obsidian=5, geode=1), minute=22)
+Replacing max with State(resources=Resources(ore=14, clay=29, obsidian=12, geode=4), robots=Robots(ore=6, clay=5, obsidian=6, geode=2), minute=23)
+Replacing max with State(resources=Resources(ore=12, clay=30, obsidian=12, geode=5), robots=Robots(ore=6, clay=5, obsidian=6, geode=2), minute=23)
+Replacing max with State(resources=Resources(ore=17, clay=34, obsidian=18, geode=6), robots=Robots(ore=7, clay=5, obsidian=6, geode=2), minute=24)
+Replacing max with State(resources=Resources(ore=15, clay=35, obsidian=18, geode=7), robots=Robots(ore=7, clay=5, obsidian=6, geode=2), minute=24)
+Maximum geode for Blueprint 25 is 7
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 23, 10: 41, 11: 80, 12: 168, 13: 334, 14: 690, 15: 949, 16: 2029, 17: 4304, 18: 8818, 19: 17041, 20: 32940, 21: 7741, 22: 17360, 23: 39154}
+
+[[3, 0, 0, 0], [3, 0, 0, 0], [2, 19, 0, 0], [2, 0, 20, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 26 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 7, 7: 11, 8: 17, 9: 23, 10: 40, 11: 71, 12: 125, 13: 202, 14: 312, 15: 46, 16: 100, 17: 158, 18: 309, 19: 627, 20: 1265}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [4, 17, 0, 0], [4, 0, 20, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 27 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 28, 14: 47}
+
+[[4, 0, 0, 0], [3, 0, 0, 0], [3, 20, 0, 0], [2, 0, 19, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 28 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 2, 5: 4, 6: 5, 7: 7, 8: 11, 9: 11, 10: 17, 11: 28, 12: 48, 13: 79, 14: 137, 15: 1, 16: 2, 17: 4, 18: 5, 19: 7, 20: 11}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [4, 14, 0, 0], [3, 0, 16, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 29 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 28, 14: 47, 15: 1, 16: 1, 17: 3, 18: 5, 19: 5, 20: 7}
+
+[[4, 0, 0, 0], [4, 0, 0, 0], [4, 7, 0, 0], [2, 0, 16, 0], [0, 0, 0, 0]]
+Maximum geode for Blueprint 30 is 0
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 3, 6: 5, 7: 5, 8: 7, 9: 6, 10: 10, 11: 12, 12: 18, 13: 31, 14: 62, 15: 34, 16: 66, 17: 125, 18: 263, 19: 511, 20: 1036}
+
+
+
+
+
+
+
+
+
+
+
+Test B1
+[[4, 0, 0, 0], [2, 0, 0, 0], [3, 14, 0, 0], [2, 0, 7, 0], [0, 0, 0, 0]]
+Replacing max with State(resources=Resources(ore=1, clay=24, obsidian=4, geode=1), robots=Robots(ore=1, clay=5, obsidian=2, geode=1), minute=19)
+Replacing max with State(resources=Resources(ore=2, clay=29, obsidian=6, geode=2), robots=Robots(ore=1, clay=5, obsidian=2, geode=1), minute=20)
+Replacing max with State(resources=Resources(ore=1, clay=34, obsidian=8, geode=3), robots=Robots(ore=1, clay=6, obsidian=2, geode=1), minute=21)
+Replacing max with State(resources=Resources(ore=2, clay=40, obsidian=10, geode=4), robots=Robots(ore=1, clay=6, obsidian=2, geode=1), minute=22)
+Replacing max with State(resources=Resources(ore=2, clay=36, obsidian=4, geode=5), robots=Robots(ore=1, clay=5, obsidian=2, geode=2), minute=22)
+Replacing max with State(resources=Resources(ore=1, clay=44, obsidian=5, geode=6), robots=Robots(ore=1, clay=6, obsidian=2, geode=2), minute=23)
+Replacing max with State(resources=Resources(ore=1, clay=41, obsidian=6, geode=7), robots=Robots(ore=1, clay=6, obsidian=2, geode=2), minute=23)
+Replacing max with State(resources=Resources(ore=2, clay=50, obsidian=7, geode=8), robots=Robots(ore=1, clay=6, obsidian=2, geode=2), minute=24)
+Replacing max with State(resources=Resources(ore=2, clay=47, obsidian=8, geode=9), robots=Robots(ore=1, clay=6, obsidian=2, geode=2), minute=24)
+{0: 1, 1: 1, 2: 1, 3: 2, 4: 3, 5: 5, 6: 7, 7: 10, 8: 14, 9: 17, 10: 30, 11: 53, 12: 99, 13: 189, 14: 369, 15: 250, 16: 531, 17: 1147, 18: 2478, 19: 5223, 20: 11749, 21: 9209, 22: 21369, 23: 52917}
+
+test B2
+[[2, 0, 0, 0], [3, 0, 0, 0], [3, 8, 0, 0], [3, 0, 12, 0], [0, 0, 0, 0]]
+Replacing max with State(resources=Resources(ore=83, clay=36, obsidian=16, geode=3), robots=Robots(ore=11, clay=6, obsidian=4, geode=1), minute=24)
+Replacing max with State(resources=Resources(ore=67, clay=35, obsidian=10, geode=4), robots=Robots(ore=9, clay=6, obsidian=5, geode=2), minute=24)
+Replacing max with State(resources=Resources(ore=70, clay=42, obsidian=8, geode=5), robots=Robots(ore=10, clay=6, obsidian=4, geode=2), minute=24)
+Replacing max with State(resources=Resources(ore=54, clay=41, obsidian=15, geode=6), robots=Robots(ore=9, clay=6, obsidian=5, geode=2), minute=24)
+Replacing max with State(resources=Resources(ore=58, clay=48, obsidian=12, geode=7), robots=Robots(ore=10, clay=6, obsidian=4, geode=2), minute=24)
+Replacing max with State(resources=Resources(ore=37, clay=26, obsidian=14, geode=8), robots=Robots(ore=6, clay=6, obsidian=7, geode=3), minute=24)
+Replacing max with State(resources=Resources(ore=34, clay=39, obsidian=12, geode=9), robots=Robots(ore=7, clay=6, obsidian=6, geode=3), minute=24)
+Replacing max with State(resources=Resources(ore=33, clay=38, obsidian=13, geode=10), robots=Robots(ore=7, clay=6, obsidian=6, geode=3), minute=24)
+Replacing max with State(resources=Resources(ore=21, clay=32, obsidian=21, geode=11), robots=Robots(ore=6, clay=6, obsidian=7, geode=3), minute=24)
+Replacing max with State(resources=Resources(ore=19, clay=45, obsidian=18, geode=12), robots=Robots(ore=7, clay=6, obsidian=6, geode=3), minute=24)
+{0: 1, 1: 1, 2: 1, 3: 2, 4: 4, 5: 7, 6: 13, 7: 22, 8: 43, 9: 61, 10: 103, 11: 193, 12: 381, 13: 756, 14: 1536, 15: 2071, 16: 4506, 17: 9438, 18: 18986, 19: 39128,
+20: 82841, 21: 55726, 22: 129883, 23: 299029}
