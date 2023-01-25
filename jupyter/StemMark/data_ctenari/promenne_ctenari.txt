@@ -1,0 +1,61 @@
+			Variable Information				
+Variable	Position	Label	Measurement Level	Column Width	Alignment	Print Format	Write Format
+p_sex	1	Pohlaví	Nominal	8	Right	F7	F7
+p_age	2	<none>	Scale	8	Right	F7	F7
+p_size	3	Velikost obce	Nominal	8	Right	F7	F7
+p_edu	4	Vzdìlání	Nominal	8	Right	F7	F7
+p_nuts3	5	<none>	Nominal	8	Right	F7	F7
+p_income	6	<none>	Nominal	8	Right	F7	F7
+p_house_income	7	<none>	Nominal	8	Right	F7	F7
+s1	8	S1. Sledujete alespoò obèas zprávy /zpravodajství z ÈR nebo ze svìta?	Nominal	8	Right	F7	F7
+s2_1	9	Tištìné noviny (denní tisk):	Scale	8	Right	F7	F7
+s2_2	10	Internetové zpravodajské deníky, servery:	Scale	8	Right	F7	F7
+s2_3	11	Televizní zpravodajství:	Scale	8	Right	F7	F7
+s2_4	12	Rozhlasové zpravodajství:	Scale	8	Right	F7	F7
+s2_5	13	Celkem	Scale	8	Right	F7	F7
+s3_1	14	Domácí politika	Scale	13	Right	F7	F7
+s3_2	15	Ekonomika	Scale	8	Right	F7	F7
+s3_3	16	Kultura	Scale	8	Right	F7	F7
+s3_4	17	Sport	Scale	8	Right	F7	F7
+s3_5	18	Zahranièí	Scale	8	Right	F7	F7
+s3_6	19	Krimi zprávy	Scale	8	Right	F7	F7
+s3_7	20	Bulvár, život celebrit	Scale	8	Right	F7	F7
+s3_8	21	Poèasí	Scale	8	Right	F7	F7
+s3_9	22	Jiné	Scale	8	Right	F7	F7
+s3_10	23	<none>	Scale	6	Right	F6.2	F6.2
+s3_11	24	<none>	Scale	6	Right	F6.2	F6.2
+s3_12	25	<none>	Scale	6	Right	F6.2	F6.2
+s4_1	26	Noviny - denní tisk	Scale	8	Right	F7	F7
+s4_2	27	Internetové zpravodajské deníky, servery	Scale	8	Right	F7	F7
+s4_3	28	Televizní zpravodajství	Scale	8	Right	F7	F7
+s4_4	29	Rozhlasové zpravodajství	Scale	8	Right	F7	F7
+s5	30	S5. Když se zamyslíte nad jednotlivými zdroji zpravodajských informací (druhy médií), mùžete jmenovat jeden, bez kterého byste se opravdu neobešel /neobešla?	Scale	8	Right	F7	F7
+s6	31	S6. A dùvod?	Nominal	50	Left	A255	A255
+s6_code1	32	<none>	Nominal	6	Right	F6.2	F6.2
+s6_code2	33	<none>	Nominal	6	Right	F6.2	F6.2
+s6_code3	34	<none>	Nominal	6	Right	F6.2	F6.2
+s7_1	35	Prosím vypište titul Vašich nejoblíbenìjších novin:	Nominal	50	Left	A255	A255
+s7_2	36	Proè jsou Vaše nejoblíbenìjší:	Nominal	50	Left	A255	A255
+s7_2_code1	37	<none>	Nominal	6	Right	F6	F6
+s7_2_code2	38	<none>	Nominal	6	Right	F6	F6
+s7_2_code3	39	<none>	Nominal	6	Right	F6	F6
+s8_1	40	Váš nejoblíbenìjší zpravodajský server:	Nominal	50	Left	A255	A255
+s8_2	41	Proè je Vás nejoblíbenìjší	Nominal	50	Left	A255	A255
+s8_2_code1	42	<none>	Nominal	6	Right	F6	F6
+s8_2_code2	43	<none>	Nominal	6	Right	F6	F6
+s8_2_code3	44	<none>	Nominal	6	Right	F6.2	F6.2
+s10	45	S10. Byl/a byste ochoten /ochotna za (Vaše oblíbené) internetové zpravodajství platit? Pokud ano, kolik Kè mìsíènì?	Scale	8	Right	F7	F7
+s10_O_T_H	46	<none>	Nominal	50	Left	A255	A255
+s11_1	47	S11. Jakým zpùsobem nejèastìji internetové servery - zpravodajství ètete? Seøaïte podle frekvence využívání jen ty zpùsoby, které používáte - 1. vybraná možnost	Scale	8	Right	F7	F7
+s11_2	48	S11. Jakým zpùsobem nejèastìji internetové servery - zpravodajství ètete? Seøaïte podle frekvence využívání jen ty zpùsoby, které používáte - 2. vybraná možnost	Scale	8	Right	F7	F7
+s11_3	49	S11. Jakým zpùsobem nejèastìji internetové servery - zpravodajství ètete? Seøaïte podle frekvence využívání jen ty zpùsoby, které používáte - 3. vybraná možnost	Scale	8	Right	F7	F7
+s11_4	50	S11. Jakým zpùsobem nejèastìji internetové servery - zpravodajství ètete? Seøaïte podle frekvence využívání jen ty zpùsoby, které používáte - 4. vybraná možnost	Scale	8	Right	F7	F7
+s9_1	51	Tištìné noviny ètu v pøípadì /protože:	Nominal	50	Left	A255	A255
+s9_1_code1	52	<none>	Nominal	6	Right	F6	F6
+s9_1_code2	53	<none>	Nominal	6	Right	F6	F6
+s9_1_code3	54	<none>	Nominal	6	Right	F6	F6
+s9_1_code4	55	<none>	Nominal	6	Right	F6	F6
+s9_2	56	Internetové servery - zpravodajství ètu v pøípadì /protože:	Nominal	65	Left	A255	A255
+s9_2_code1	57	<none>	Nominal	6	Right	F6	F6
+s9_2_code2	58	<none>	Nominal	6	Right	F6	F6
+s9_2_code3	59	<none>	Nominal	6	Right	F6	F6

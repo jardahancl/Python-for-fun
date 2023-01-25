@@ -1,0 +1,31 @@
+			Variable Information				
+Variable	Position	Label	Measurement Level	Column Width	Alignment	Print Format	Write Format
+age	1	S1. Kolik je Vám let?	Scale	8	Right	F7	F7
+sex	2	S2. Jste ...	Nominal	8	Right	F7	F7
+edu	3	S3. Jaké je Vaše vzdìlání?	Nominal	8	Right	F7	F7
+s4	4	S4. Ve kterém kraji žijete?	Nominal	8	Right	F7	F7
+s5	5	S5. Kolik obyvatel má obec, ve které žijete?	Nominal	8	Right	F7	F7
+c1	6	ZAMÌSTNÁNÍ C1. Pokud byste si mohl/a vybrat, bral/a byste radìji práci, která by Vám poskytovala více klidu za ménì penìz, nebo ménì klidu za více penìz?	Nominal	8	Right	F7	F7
+c2_1	7	Ztráta tohoto zamìstnání	Nominal	8	Right	F7	F7
+c2_2	8	Snížení platu nebo pøeøazení na horší pracovní místo	Nominal	8	Right	F7	F7
+c3	9	C3. Byl/a jste nìjakou dobu nezamìstnaná/ý?	Nominal	8	Right	F7	F7
+c4	10	C4. Máte obavu, že budete v pøeddùchodovém vìku nezamìstnaná/ý?	Nominal	8	Right	F7	F7
+c5	11	C5. Pokud byste ztratil/a zamìstnání, jak dlouho myslíte, že by Vám trvalo najít nové?	Nominal	8	Right	F7	F7
+c5_O_T_H	12	<none>	Nominal	50	Left	A255	A255
+c6_1	13	Ochota se vzdìlávat	Nominal	8	Right	F7	F7
+c6_2	14	Pøeorientovat se ve své profesi	Nominal	8	Right	F7	F7
+c6_3	15	Doplòovat si znalosti a kvalifikaci	Nominal	8	Right	F7	F7
+c6_4	16	Pøestìhovat se za prací	Nominal	8	Right	F7	F7
+c6_5	17	Pracovat na snížený úvazek	Nominal	8	Right	F7	F7
+c6_6	18	Vzít práci, která nedosahuje mé kvalifikace	Nominal	8	Right	F7	F7
+m1_1	19	Radosti	Nominal	8	Right	F7	F7
+m1_2	20	Štìstí	Nominal	8	Right	F7	F7
+m1_3	21	Vnitøního klidu	Nominal	8	Right	F7	F7
+m1_4	22	Že se na nìco tìšíte	Nominal	8	Right	F7	F7
+m1_5	23	Smutku	Nominal	8	Right	F7	F7
+m1_6	24	Únavy	Nominal	8	Right	F7	F7
+m1_7	25	Zlosti	Nominal	8	Right	F7	F7
+m1_8	26	Stresu	Nominal	8	Right	F7	F7
+s6	27	S6. Jaké je Vaše sociální postavení?	Nominal	8	Right	F7	F7
+agecat	28	Automaticky vložená otázka - promìnná: agecat	Nominal	8	Right	F7	F7
+educat	29	Automaticky vložená otázka - promìnná: educat	Nominal	8	Right	F7	F7
