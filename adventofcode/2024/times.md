@@ -10,4 +10,5 @@
 | Day 08    |     1:00 |     0:10 |      1:10 | Done in bed :)                                                             |
 | Day 09    |     1:00 |     0:10 |      1:10 | Nice problem with dynamic ordered list                                     |
 | Day 10    |     0:35 |     0:40 |      1:15 | Done in bed :)                                                             |
-| **Total** | **6:10** | **6:25** | **12:35** |                                                                            |
+| Day 11    |     0:20 |     2:10 |      2:30 | So much debugging for 10 lines of part2                                    |
+| **Total** | **6:30** | **8:35** | **15:05** |                                                                            |
