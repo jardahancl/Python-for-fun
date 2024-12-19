@@ -1,7 +1,9 @@
+from collections import namedtuple
+
 dirs4 = [[1, 0], [-1, 0], [0, 1], [0, -1]]
 dirsX = [[1, 1], [-1, 1], [1, -1], [-1, -1]]
 dirs8 = dirs4 + dirsX
-
+CC = namedtuple('CC', ['x', 'y'])
 
 def extend(board, n, ch):
     board_in = board.copy()
