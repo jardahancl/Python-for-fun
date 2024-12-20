@@ -13,4 +13,5 @@
 | Day 11    |     0:20 |      2:10 |      2:30 | So much debugging for 10 lines of part2                                              |
 | Day 12    |     1:00 |      0:40 |      1:40 | I like it                                                                            |
 | Day 13    |     1:20 |      1:00 |      3:20 | Part1 first tried generally, but then just for-cycle. Part2 just finding proper tool |
-| **Total** | **8:50** | **10:15** | **19:05** |                                                                                      |
+| Day 14    |     0:30 |      0:45 |      1:15 | Part2 via counting neighbours (but first unsuccessfully tried counting densities)    |
+| **Total** | **9:20** | **11:00** | **20:20** |                                                                                      |

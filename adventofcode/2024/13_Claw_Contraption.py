@@ -79,8 +79,8 @@ def get_part2(ms):
 part1 = get_part1(machines, 100)
 # part1 = get_part2(machines)
 part2 = get_part2(machines_v2)
-print(f'12a - result of part1 is {part1}')
-print(f'12b - result of part2 is {part2}')
+print(f'13a - result of part1 is {part1}')
+print(f'13b - result of part2 is {part2}')
 # 1h 20m + 1h
 
 
