@@ -4,5 +4,6 @@
 | Day 02    |     1:10 |      2:00 |      3:10 | No nevim, proste mi to neslo.                                                        |
 | Day 03    |     0:30 |      0:05 |      0:35 | Part1 hlavne premysleni, Part2 se dala predvidat.                                    |
 | Day 04    |     0:20 |      0:10 |      0:30 | Fungovalo to neefektivne                                                             |
-| **Total** | **1:50** | **03:05** | **04:55** |                                                                                      |
+| Day 05    |     0:10 |      0:40 |      0:50 | Part2 nejak splacana.                                                                |
+| **Total** | **2:20** | **03:55** | **06:15** |                                                                                      |
 
